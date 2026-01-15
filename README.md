@@ -26,7 +26,7 @@ https://www.diriwan88.com/cms/<br>
   from: 2001-12-15 - 026-01-14<br>
 #### Good Luck
 
-#### Donations
+#### Donations (only if you won, hehehe)
 - BTC: 3D6VYfj9nCwVXNBcBzTASHdopKGcZzrH1d
   <br>
 Thank You Very Much
