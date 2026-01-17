@@ -396,7 +396,7 @@ class TOTO4DAnalyzer:
         print(f"\n🎯 5 PREDICTIONS:")
         for i, pred in enumerate(predictions[:5], 1):
             unique_digits = len(set(pred))
-            print(f"   {i}. {pred} ({unique_digits} digit unik)")
+            print(f"   {i}. {pred} ({unique_digits} digit unique)")
         
         return predictions[:5], {}
     
@@ -673,7 +673,7 @@ class TOTO4DAnalyzer:
         # Kategorikan predictions
         sangat_populer = []  # muncul >= 3 analysis
         populer = []        # muncul 2 analysis
-        unik = []          # muncul 1 analysis
+        unique = []          # muncul 1 analysis
         
         for pred, count in pred_counter.items():
             if count >= 3:
@@ -681,7 +681,7 @@ class TOTO4DAnalyzer:
             elif count == 2:
                 populer.append((pred, count))
             else:
-                unik.append((pred, count))
+                unique.append((pred, count))
         
         # Urutkan berdasarkan frekuensi
         sangat_populer.sort(key=lambda x: x[1], reverse=True)
@@ -721,11 +721,11 @@ class TOTO4DAnalyzer:
                     rekomendasi_akhir.append(pred)
                     print(f"      • {pred} - {count} analysis")
         
-        # Tambahkan random dari unik jika masih kurang
-        if len(rekomendasi_akhir) < 5 and unik:
+        # Tambahkan random dari unique jika masih kurang
+        if len(rekomendasi_akhir) < 5 and unique:
             print(f"\n   ⭐ BASIC RECOMMENDATION (Filling):")
             import random
-            selected = random.sample(unik, min(5-len(rekomendasi_akhir), len(unik)))
+            selected = random.sample(unique, min(5-len(rekomendasi_akhir), len(unique)))
             for pred, count in selected:
                 rekomendasi_akhir.append(pred)
                 print(f"      • {pred} - {count} analysis")
