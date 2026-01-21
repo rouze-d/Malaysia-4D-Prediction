@@ -19,7 +19,7 @@ https://www.diriwan88.com/cms/<br>
 10. Analysis Comprehensive Statistical
 11. Analysis of the Rarest Numbers<br>
 
-### Analysis Method [prediction_4d_v2.py] version 2
+### Analysis Method [prediction_4d_v2.py] version 2 (will come soon..)
 1. Sequential_Up
 2. Sequential_Down
 3. Palindrome
