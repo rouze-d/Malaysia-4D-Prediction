@@ -63,9 +63,9 @@ https://www.diriwan88.com/cms/<br>
 
 #### Data
 - TOTO Data 1992-2026-toto.txt<br>
-  from: 1992-05-06 - 2026-01-14<br>
+  from: 06/Mei/1992 - 25/Jan/2026<br>
 - 88 data 2001-2026-88.txt<br>
-  from: 2001-12-15 - 026-01-14<br>
+  from: 25/Dec/2001 - 25/Jan/2026<br>
 #### Good Luck
 
 #### Donations (only if you won, hehehe)
