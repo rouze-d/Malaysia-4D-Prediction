@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# github.com/rouze-d
+
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
