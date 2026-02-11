@@ -19,7 +19,7 @@ https://www.diriwan88.com/cms/<br>
 10. Analysis Comprehensive Statistical
 11. Analysis of the Rarest Numbers<br>
 
-### Analysis Method [prediction_4d_v2.py]
+### Analysis Method [prediction_4d-v2.py]
 1. Sequential_Up
 2. Sequential_Down
 3. Palindrome
@@ -61,11 +61,14 @@ https://www.diriwan88.com/cms/<br>
 39. Not_Appeared
 40. Special_Combination
 
+### Analysis Method [prediction_4d-v3.py]
+almost same with prediction_4d.py but with full chart
+
 #### Data
 - TOTO Data 1992-2026-toto.txt<br>
-  from: 06/Mei/1992 - 25/Jan/2026<br>
+  from: 06/Mei/1992 - 11/Feb/2026<br>
 - 88 data 2001-2026-88.txt<br>
-  from: 25/Dec/2001 - 25/Jan/2026<br>
+  from: 25/Dec/2001 - 11/Feb/2026<br>
 #### Good Luck
 
 #### Donations (only if you won, hehehe)
